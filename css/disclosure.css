@@ -1,3 +1,10 @@
+/* https://www.sitepoint.com/style-html-details-element/#creatingacustommarkerforthesummaryelement */
+summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
 /* https://shkspr.mobi/blog/2020/12/a-terrible-way-to-do-footnotes-in-html */
 /* p._expandable, */
 p._disclosable, 
